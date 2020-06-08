@@ -43,7 +43,7 @@ As our Team is looking at Improving and Supporting Zenject, Below is the list of
 We are sharing this with community to help us prioritize and Find out if there is anything else that the community is looking for in the upcoming release. Looking forward to your feedback - Contact us through github or zenject@modesttree.com.
 ##
 >
-<img src="Documentation/Images/ZenjectLogo.png?raw=true" alt="Zenject" width="600px" height="134px"/>
+<img src="https://modesttree/Zenject/Documentation/Images/ZenjectLogo.png?raw=true" alt="Zenject" width="600px" height="134px"/>
 
 ## Dependency Injection Framework for Unity3D
 
