@@ -1,9 +1,31 @@
 {
-  "name": "com.bckworks.modesttree.zenject",
-  "version": "8.0.1",
-  "displayName": "BCKWorks Zenject",
+  "name": "com.bckworks.extern.zenject",
+  "displayName": "BCKWorks External Zenject",
   "description": "Dependency Injection Framework for Unity3D",
+  "version": "1.0.0",
   "unity": "2019.4",
-  "dependencies": {
-  }
+  "keywords": [
+  ],
+  "homepage": "https://github.com/BCKWorks/extern.zenject#readme",
+  "bugs": {
+    "url": "https://github.com/BCKWorks/extern.zenject/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BCKWorks/extern.zenject.git#upm"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "BCKWorks External",
+    "email": "ck@bckworks.com",
+    "url": "https://github.com/BCKWorks"
+  },
+  "files": [
+    "*.md",
+    "*.meta",
+    "*.asmdef",
+    "*.xml",
+    "Editor",
+    "Runtime"
+  ]
 }
