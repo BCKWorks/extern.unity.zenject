@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to this package will be documented in this file.
 
+## [1.3.1] - 2020-08-12
+
+### Changed
+
+- Rename LICENSE to LICENSE.md
+
 ## [1.3.0] - 2020-08-12
 
 ### Changed

@@ -2,7 +2,7 @@
   "name": "com.bckworks.extern.unity.zenject",
   "displayName": "BCKWorks External Unity3D Zenject",
   "description": "Dependency Injection Framework for Unity3D",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "unity": "2019.4",
   "keywords": [
   ],
