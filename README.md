@@ -1,11 +1,12 @@
-![IMG](https://img.shields.io/badge/pkg%20name-com.bckworks.extern.unity.zenject-yellowgreen?style=for-the-badge&logo=appveyor)
+![IMG](https://img.shields.io/badge/pkg%20name-com.intervr.unity.extern.zenject-yellowgreen?style=for-the-badge&logo=appveyor)
 
-![NPM](https://img.shields.io/npm/v/com.bckworks.extern.unity.zenject)
-![NPM](https://img.shields.io/npm/l/com.bckworks.extern.unity.zenject)
+![NPM](https://img.shields.io/npm/v/com.intervr.unity.extern.zenject)
+![NPM](https://img.shields.io/npm/l/com.intervr.unity.extern.zenject)
 
 # 소개
 
-BCKWorks External Unity3D Zenject는 [유니티] 기반 소프트웨어 개발 도구(SDK)입니다.
+
+Zenject는 iNTERVR의 외부에서 [유니티]를 기반으로 하여 제작된 소프트웨어 개발 도구(SDK)입니다.
 
 [modesttree/Zenject]로부터 퍼왔습니다.
 
@@ -27,23 +28,23 @@ BCKWorks External Unity3D Zenject는 [유니티] 기반 소프트웨어 개발 �
 * 프로젝트의 `Packages`디렉토리를 탐색합니다.
 * [프로젝트-메니패스트]인 `manifest.json`을 수정하기 위해 텍스트 편집기에서 오픈합니다.
   * `https://registry.npmnjs.org/`가 `scopedRegistries`에 포함되었는지 확인합니다.
-    * `com.bckworks`가 `scopes`에 포함되었는지 확인합니다.
-  * `dependencies`에 `com.bckworks.extern.unity.zenject`의 최신버전을 추가합니다.
+    * `com.intervr`가 `scopes`에 포함되었는지 확인합니다.
+  * `dependencies`에 `com.intervr.unity.extern.zenject`의 최신버전을 추가합니다.
 
- 간략한 예제는 다음과 같습니다. 여기에 표기된 `"X.Y.Z"` 버전은 [최신-릴리즈]인 ![NPM](https://img.shields.io/npm/v/com.bckworks.extern.unity.zenject)로 대체 되어야 합니다.
+ 간략한 예제는 다음과 같습니다. 여기에 표기된 `"X.Y.Z"` 버전은 [최신-릴리즈(NPM)]인 ![NPM](https://img.shields.io/npm/v/com.intervr.unity.extern.zenject)에서 v를 제외한 나머지로 자리에 맞추어 대체 되어야 합니다.
 ```json
 {
   "scopedRegistries": [
     {
-      "name": "BCKWorks",
+      "name": "iNTERVR",
       "url": "https://registry.npmjs.org/",
       "scopes": [
-        "com.bckworks"
+        "com.intervr"
       ]
     }
   ],
   "dependencies": {
-    "com.bckworks.extern.unity.zenject":  "X.Y.Z",
+    "com.intervr.unity.extern.zenject":  "X.Y.Z",
     ...
   }
 }
@@ -56,6 +57,5 @@ BCKWorks External Unity3D Zenject는 [유니티] 기반 소프트웨어 개발 �
 
 [modesttree/Zenject]: https://github.com/modesttree/Zenject
 [유니티]: https://unity3d.com/
-[유니티 테크놀로지]: https://unity3d.com/
-[최신-릴리즈]: https://www.npmjs.com/package/com.bckworks.extern.unity.zenject
+[최신-릴리즈(NPM)]: https://www.npmjs.com/package/com.intervr.unity.extern.zenject
 [프로젝트-매니페스트]: https://docs.unity3d.com/Manual/upm-manifestPrj.html
