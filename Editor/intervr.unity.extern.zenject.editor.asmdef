@@ -1,7 +1,7 @@
 {
-    "name": "bckworks.extern.zenject.editor",
+    "name": "intervr.unity.extern.zenject.editor",
     "references": [
-        "bckworks.extern.zenject"
+        "intervr.unity.extern.zenject"
     ],
     "includePlatforms": [
         "Editor"
