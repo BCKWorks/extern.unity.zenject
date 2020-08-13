@@ -1,24 +1,24 @@
 {
-  "name": "com.bckworks.extern.unity.zenject",
-  "displayName": "BCKWorks External Unity3D Zenject",
+  "name": "com.intervr.unity.extern.zenject",
+  "displayName": "Zenject of iNTERVR Unity3D External SDK",
   "description": "Dependency Injection Framework for Unity3D",
-  "version": "1.3.1",
+  "version": "1.4.0",
   "unity": "2019.4",
   "keywords": [
   ],
-  "homepage": "https://github.com/BCKWorks/extern.unity.zenject#readme",
+  "homepage": "https://github.com/BCKWorks/unity.extern.zenject#readme",
   "bugs": {
-    "url": "https://github.com/BCKWorks/extern.unity.zenject/issues"
+    "url": "https://github.com/BCKWorks/unity.extern.zenject/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BCKWorks/extern.unity.zenject.git#upm"
+    "url": "git+https://github.com/BCKWorks/unity.extern.zenject.git#upm"
   },
   "license": "MIT",
   "author": {
-    "name": "BCKWorks",
-    "email": "ck@bckworks.com",
-    "url": "https://github.com/BCKWorks"
+    "name": "iNTERVR",
+    "email": "ckbang7@gmail.com",
+    "url": "https://github.com/iNTERVR"
   },
   "files": [
     "*.md",
