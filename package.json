@@ -5,13 +5,13 @@
   "version": "1.6.0",
   "unity": "2020.1",
   "keywords": [],
-  "homepage": "https://github.com/BCKWorks/unity.extern.zenject#readme",
+  "homepage": "https://github.com/iNTERVR/ts.zenject#readme",
   "bugs": {
-    "url": "https://github.com/BCKWorks/unity.extern.zenject/issues"
+    "url": "https://github.com/iNTERVR/ts.zenject/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BCKWorks/unity.extern.zenject.git#upm"
+    "url": "git+https://github.com/iNTERVR/ts.zenject.git#upm"
   },
   "license": "MIT",
   "author": {
