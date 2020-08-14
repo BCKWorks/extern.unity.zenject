@@ -1,11 +1,10 @@
 {
-  "name": "com.intervr.unity.extern.zenject",
-  "displayName": "Zenject of iNTERVR Unity3D External SDK",
+  "name": "com.intervr.ts.zenject",
+  "displayName": "iNTERVR Tech Stack Zenject",
   "description": "Dependency Injection Framework for Unity3D",
-  "version": "1.5.0",
-  "unity": "2019.4",
-  "keywords": [
-  ],
+  "version": "1.6.0",
+  "unity": "2020.1",
+  "keywords": [],
   "homepage": "https://github.com/BCKWorks/unity.extern.zenject#readme",
   "bugs": {
     "url": "https://github.com/BCKWorks/unity.extern.zenject/issues"

@@ -1,7 +1,7 @@
 {
-    "name": "intervr.unity.extern.zenject.editor",
+    "name": "intervr.ts.zenject.editor",
     "references": [
-        "intervr.unity.extern.zenject"
+        "intervr.ts.zenject"
     ],
     "includePlatforms": [
         "Editor"
