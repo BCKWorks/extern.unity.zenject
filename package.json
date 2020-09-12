@@ -2,7 +2,7 @@
   "name": "com.intervr.ts.zenject",
   "displayName": "iNTERVR Tech Stack Zenject",
   "description": "Dependency Injection Framework for Unity3D",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "unity": "2020.1",
   "keywords": [],
   "homepage": "https://github.com/iNTERVR/ts.zenject#readme",

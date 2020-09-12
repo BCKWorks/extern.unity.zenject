@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to this package will be documented in this file.
 
+## [1.6.1] - 2020-09-12
+
+### Added
+
+- SingltonMark: Unmark(all) SingletonMark at Unbind(type)
+
 ## [1.6.0] - 2020-08-15
 
 ### Changed

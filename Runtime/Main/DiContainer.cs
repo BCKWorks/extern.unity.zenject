@@ -2494,6 +2494,7 @@ namespace Zenject
         public void UnbindAll()
         {
             FlushBindings();
+            SingletonMarkRegistry.UnmarkAll();
             _providers.Clear();
         }
 
@@ -2518,7 +2519,7 @@ namespace Zenject
             FlushBindings();
 
             var bindingId = new BindingId(contractType, identifier);
-
+            SingletonMarkRegistry.Unmark(contractType);
             return _providers.Remove(bindingId);
         }
 

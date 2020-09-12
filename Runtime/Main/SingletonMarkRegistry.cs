@@ -26,5 +26,18 @@ namespace Zenject.Internal
                 "Found multiple creation bindings for type '{0}' in addition to AsSingle.  The AsSingle binding must be the definitive creation binding.  If this is intentional, use AsCached instead of AsSingle.", type);
         }
 
+        public void Unmark(Type type)
+        {
+            if (_boundSingletons.Contains(type))
+                _boundSingletons.Remove(type);
+            if (_boundNonSingletons.Contains(type))
+                _boundNonSingletons.Remove(type);
+        }
+
+        public void UnmarkAll()
+        {
+            _boundSingletons.Clear();
+            _boundNonSingletons.Clear();
+        }
     }
 }
