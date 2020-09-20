@@ -2519,8 +2519,14 @@ namespace Zenject
             FlushBindings();
 
             var bindingId = new BindingId(contractType, identifier);
-            SingletonMarkRegistry.Unmark(contractType);
-            return _providers.Remove(bindingId);
+            if (_providers != null && _providers.ContainsKey(bindingId))
+            {
+                _providers.Remove(bindingId);
+                SingletonMarkRegistry.Unmark(contractType);
+                return true;
+            }
+
+            return false;
         }
 
         public void UnbindInterfacesTo<TConcrete>()
@@ -2575,6 +2581,7 @@ namespace Zenject
             {
                 bool success = providers.Remove(info);
                 Assert.That(success);
+                SingletonMarkRegistry.Unmark(concreteType);
             }
 
             return true;

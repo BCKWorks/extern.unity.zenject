@@ -1,6 +1,13 @@
 # Changelog
 All notable changes to this package will be documented in this file.
 
+## [1.6.2] - 2020-09-20
+
+### Changed
+
+- Unbind의 provider제거 검사 루틴 수정
+- UnbindId(Type contractType, Type concreteType, object identifier)할 때 SingletonMarkRegistry.Unmark(concreteType)해서 Singleton을 초기화
+
 ## [1.6.1] - 2020-09-12
 
 ### Added
