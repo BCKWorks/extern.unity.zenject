@@ -1,0 +1,3 @@
+<linker>
+    <assembly fullname="intervr.ts.zenject" preserve="all"/>
+</linker>
